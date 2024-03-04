@@ -1,0 +1,126 @@
+body{
+    background-color: #001F3F;;
+    color: #ffffff;
+    font-family: "Marhey";
+}
+
+footer{
+    background-color: #FF851B;
+    margin: auto;
+    width: 95vw;
+    border-radius: 10px;
+    height: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+
+li{
+    padding: 2em;
+    transition: all 0.3s;
+}
+
+li:hover{
+    transform: scale(1.2);
+}
+
+img{
+    width: 250px;
+    margin-left: 4em;
+}
+
+
+.contenedorHeader{
+    width: 95vw;
+    height: 6em;
+    margin-left: 2em;
+    margin-right: 20em;
+    margin-top: 1em;
+    display: flex;
+    background-color: #FF851B;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 105px;
+    transition: all 0.3s;
+    margin-left: 1em;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.menu{
+    width: 86vw;
+    display: flex;
+    justify-content: end;
+}
+
+
+.section{
+    width: 90vw;
+    background-color: #003366;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 1em; 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contenedorTitulos{
+    color: #FF851B;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 4em;
+}
+
+.contenedorImg{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imgPeliculas{
+    width: 30vw;
+    border-radius: 10px;
+    transition: 2s;
+    padding-top: 1em;
+}
+
+.imgPeliculas:hover{
+    background-color:rgba(212, 165, 165, 0.3);
+}
+
+.contenedorTitulo{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.contenedorTitulImg{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
+}
+
+.contenedorPie{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: auto;
+    margin-left: 1em;
+}
+
+#titulo-principal{
+    font-family: "Pacifico";
+    font-size: 6em;
+}
+

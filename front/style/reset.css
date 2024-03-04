@@ -1,0 +1,58 @@
+/* Reset CSS básico para normalizar estilos entre navegadores */
+
+/* Establecer márgenes y rellenos a cero */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corregir el espaciado en línea y el salto de línea */
+  html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, img, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Normalizar la tipografía */
+  body, button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  
+  /* Corregir el espaciado entre elementos en línea */
+  button, input, select, textarea {
+    margin: 0;
+  }
+  
+  /* Eliminar decoraciones de lista y ajustar márgenes */
+  ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ajustar estilos de los enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Corregir la visibilidad oculta para navegadores antiguos */
+  /* Este enfoque puede necesitar ser ajustado según las necesidades específicas de tu proyecto */
+  /* Ver: https://gist.github.com/DavidWells/18e73022e723037a50d6 */
+  /* y http://www.sitepoint.com/html5-reset-an-escalable-css3-styling-layer/ */
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
